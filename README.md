@@ -27,7 +27,7 @@ Os usuários devem ser capazes:
 ### Screenshot
 
 ![Mobile](./design/mobile-design.jpg)
-![Mobile Thank You](./design/mobile-thank-you-design.jpg)
+![Mobile Thank You](./design/mobile-thank-you-state.jpg)
 
 ### Links
 
