@@ -19,9 +19,11 @@ body {
   justify-content: center;
   color: var(--light-grey);
   font-family: "Overpass", sans-serif;
+  flex-direction: column;
+  gap: 1rem;
 }
 main {
-  width: 75%;
+  width: 85%;
   max-width: 375px;
   background-color: #3a4655;
   border-radius: 50%;
@@ -31,7 +33,7 @@ main {
   flex-direction: column;
   gap: 1rem;
   background-color: var(--dark-blue);
-  padding: 10%;
+  padding: 7.5% 5%;
 
   border-radius: 1rem;
 }
@@ -101,6 +103,10 @@ main {
   background: var(--medium-grey);
   color: white;
 }
+.card__form__submit:hover {
+  background: white;
+  color: var(--orange);
+}
 .card__form__submit {
   padding: 0.75rem;
   color: white;
@@ -127,14 +133,31 @@ main {
 .hidden {
   display: none;
 }
-@media (min-width: 720px){
-  *{
+.attribution {
+  text-align: center;
+  padding-block: 0.5rem;
+  background-color: var(--orange);
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.attribution a {
+  color: white;
+}
+@media (min-width: 720px) {
+  * {
     font-size: 1rem;
   }
-  main{
+  main {
     max-width: 450px;
   }
   .card__text {
     line-height: 1.75rem;
+  }
+  .card__rate {
+    padding: 0.75rem;
+    border-radius: 2rem;
   }
 }
